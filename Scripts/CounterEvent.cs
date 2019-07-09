@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
+// Make something happen when Increment is called a specified number of times
 public class CounterEvent : MonoBehaviour
 {
     public int target;

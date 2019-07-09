@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+// Attach to an object with an animator.  Serves as an interface to the animator parameters.
 public class AnimatorProxy : MonoBehaviour
 {
     private Animator animator;
