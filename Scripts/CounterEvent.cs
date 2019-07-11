@@ -4,9 +4,9 @@ using UnityEngine.Events;
 // Make something happen when Increment is called a specified number of times
 public class CounterEvent : MonoBehaviour
 {
-    public int target;
-    public bool repeat;
-    public UnityEvent OnValueReached;
+    [SerializeField] int target;
+    [SerializeField] bool repeat;
+    [SerializeField] UnityEvent OnValueReached;
 
     private int current;
     private bool disabled;
